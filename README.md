@@ -18,3 +18,25 @@ Four algorithm variants were implemented:
 - **maxLength-bSPADE** – BFS with a maximum pattern length constraint
 
 The project also includes automated tests, experiment execution scripts, and performance analysis on real-world sequential datasets.
+
+## Running the Algorithms
+
+```bash
+python run.py dSPADE data/small.txt --sup 2 --out-dir results
+python run.py bSPADE data/BMSWebView1.txt --sup 1000 --out-dir results
+python run.py maxLength-dSPADE data/sign.txt --sup 400 --max-length 3 --out-dir results
+```
+
+## Experiments
+
+```bash
+python run_experiments.py
+```
+
+The script runs 64 experiments on a small illustrative dataset and three public SPMF datasets: BMSWebView1, SIGN, and Kosarak 10k.
+
+## Tests
+
+```bash
+python -m pytest -q
+```
