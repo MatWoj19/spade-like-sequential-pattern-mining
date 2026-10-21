@@ -1,0 +1,32 @@
+algorytm: maxLength-bSPADE
+plik wejściowy: data/sign.txt
+liczba sekwencji danych: 730
+liczba transakcji: 37958
+liczba różnych pozycji: 267
+min. liczba transakcji w sekwencji: 18
+maks. liczba transakcji w sekwencji: 94
+średnia liczba transakcji w sekwencji: 51.997260
+odchylenie standardowe liczby transakcji w sekwencji: 12.302912
+min. liczba pozycji w transakcji: 1
+maks. liczba pozycji w transakcji: 1
+średnia liczba pozycji w transakcji: 1
+odchylenie standardowe liczby pozycji w transakcji: 0
+sup: 1
+maxLength: 2
+czas odczytu pliku wejściowego: 0.067271000 s
+czas wyznaczania wzorców: 6.412548000 s
+czas zapisywania wyników: 0.252167200 s
+całkowity czas bez odczytu: 6.664715200 s
+całkowity czas wykonania: 6.731986200 s
+długość najdłuższej sekwencji kandydującej: 2
+długość najdłuższego odkrytego wzorca sekwencyjnego: 2
+# wszystkich utworzonych kandydatów: 107067
+suma wsparć wszystkich kandydatów: 1061082
+suma długości tidlist wszystkich kandydatów: 1061082
+# wszystkich odkrytych wzorców sekwencyjnych: 41081
+suma wsparć wszystkich wzorców: 1061082
+suma długości tidlist wszystkich wzorców: 1061082
+k=1: kandydaci=267, suma_wsparć_kandydatów=37958, suma_tidlist_kandydatów=37958; wzorce=267, suma_wsparć_wzorców=37958, suma_tidlist_wzorców=37958
+k=2: kandydaci=106800, suma_wsparć_kandydatów=1023124, suma_tidlist_kandydatów=1023124; wzorce=40814, suma_wsparć_wzorców=1023124, suma_tidlist_wzorców=1023124
+k=3: kandydaci=0, suma_wsparć_kandydatów=0, suma_tidlist_kandydatów=0; wzorce=0, suma_wsparć_wzorców=0, suma_tidlist_wzorców=0
+uwaga: kandydaci o długości większej niż 2 nie byli generowani z powodu ograniczenia maxLength

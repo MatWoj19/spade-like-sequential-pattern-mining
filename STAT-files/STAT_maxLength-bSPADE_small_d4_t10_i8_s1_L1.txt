@@ -1,0 +1,31 @@
+algorytm: maxLength-bSPADE
+plik wejściowy: data/small.txt
+liczba sekwencji danych: 4
+liczba transakcji: 10
+liczba różnych pozycji: 8
+min. liczba transakcji w sekwencji: 1
+maks. liczba transakcji w sekwencji: 4
+średnia liczba transakcji w sekwencji: 2.500000
+odchylenie standardowe liczby transakcji w sekwencji: 1.118034
+min. liczba pozycji w transakcji: 1
+maks. liczba pozycji w transakcji: 4
+średnia liczba pozycji w transakcji: 2.700000
+odchylenie standardowe liczby pozycji w transakcji: 0.781025
+sup: 1
+maxLength: 1
+czas odczytu pliku wejściowego: 0.000456700 s
+czas wyznaczania wzorców: 0.000094400 s
+czas zapisywania wyników: 0.001605600 s
+całkowity czas bez odczytu: 0.001700000 s
+całkowity czas wykonania: 0.002156700 s
+długość najdłuższej sekwencji kandydującej: 1
+długość najdłuższego odkrytego wzorca sekwencyjnego: 1
+# wszystkich utworzonych kandydatów: 8
+suma wsparć wszystkich kandydatów: 18
+suma długości tidlist wszystkich kandydatów: 27
+# wszystkich odkrytych wzorców sekwencyjnych: 8
+suma wsparć wszystkich wzorców: 18
+suma długości tidlist wszystkich wzorców: 27
+k=1: kandydaci=8, suma_wsparć_kandydatów=18, suma_tidlist_kandydatów=27; wzorce=8, suma_wsparć_wzorców=18, suma_tidlist_wzorców=27
+k=2: kandydaci=0, suma_wsparć_kandydatów=0, suma_tidlist_kandydatów=0; wzorce=0, suma_wsparć_wzorców=0, suma_tidlist_wzorców=0
+uwaga: kandydaci o długości większej niż 1 nie byli generowani z powodu ograniczenia maxLength

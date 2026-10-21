@@ -1,0 +1,32 @@
+algorytm: bSPADE
+plik wejściowy: data/small.txt
+liczba sekwencji danych: 4
+liczba transakcji: 10
+liczba różnych pozycji: 8
+min. liczba transakcji w sekwencji: 1
+maks. liczba transakcji w sekwencji: 4
+średnia liczba transakcji w sekwencji: 2.500000
+odchylenie standardowe liczby transakcji w sekwencji: 1.118034
+min. liczba pozycji w transakcji: 1
+maks. liczba pozycji w transakcji: 4
+średnia liczba pozycji w transakcji: 2.700000
+odchylenie standardowe liczby pozycji w transakcji: 0.781025
+sup: 2
+czas odczytu pliku wejściowego: 0.000432800 s
+czas wyznaczania wzorców: 0.001788500 s
+czas zapisywania wyników: 0.001266700 s
+całkowity czas bez odczytu: 0.003055200 s
+całkowity czas wykonania: 0.003488000 s
+długość najdłuższej sekwencji kandydującej: 5
+długość najdłuższego odkrytego wzorca sekwencyjnego: 4
+# wszystkich utworzonych kandydatów: 51
+suma wsparć wszystkich kandydatów: 73
+suma długości tidlist wszystkich kandydatów: 98
+# wszystkich odkrytych wzorców sekwencyjnych: 18
+suma wsparć wszystkich wzorców: 47
+suma długości tidlist wszystkich wzorców: 60
+k=1: kandydaci=8, suma_wsparć_kandydatów=18, suma_tidlist_kandydatów=27; wzorce=4, suma_wsparć_wzorców=14, suma_tidlist_wzorców=19
+k=2: kandydaci=22, suma_wsparć_kandydatów=32, suma_tidlist_kandydatów=42; wzorce=8, suma_wsparć_wzorców=20, suma_tidlist_wzorców=27
+k=3: kandydaci=16, suma_wsparć_kandydatów=20, suma_tidlist_kandydatów=26; wzorce=5, suma_wsparć_wzorców=11, suma_tidlist_wzorców=12
+k=4: kandydaci=4, suma_wsparć_kandydatów=3, suma_tidlist_kandydatów=3; wzorce=1, suma_wsparć_wzorców=2, suma_tidlist_wzorców=2
+k=5: kandydaci=1, suma_wsparć_kandydatów=0, suma_tidlist_kandydatów=0; wzorce=0, suma_wsparć_wzorców=0, suma_tidlist_wzorców=0
