@@ -1,0 +1,11 @@
+# CId TId Items
+1 10 c d
+1 15 a b c
+1 20 a b f
+1 25 a c d f
+2 15 a b f
+2 20 e
+3 10 a b f
+4 10 d g h
+4 20 b f
+4 25 a g h
